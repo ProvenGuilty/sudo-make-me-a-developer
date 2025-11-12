@@ -89,6 +89,8 @@ This teaches you the full Git workflow:
 
 **Don't worry if this seems complex.** We'll teach you Git properly in Chapter 2!
 
+> **Before tackling bigger contributions:** finish Chapter 1, configure SSH, and sign the [Guestbook](./GUESTBOOK.md). That confirms your environment is ready for collaboration.
+
 ---
 
 ## 📝 Contribution Guidelines
@@ -352,10 +354,11 @@ Contributing to this project is itself a learning experience:
 
 ## 🚀 Ready to Contribute?
 
-1. **Look at existing issues** - Maybe someone already reported what you found
-2. **Create a new issue** - Share your experience
-3. **Make a pull request** - Fix something you found
-4. **Help others** - Answer questions in discussions
+1. **Finish Chapter 1** for your OS and sign the [Guestbook](./GUESTBOOK.md) (proves your setup works!)
+2. **Look at existing issues** - Maybe someone already reported what you found
+3. **Create a new issue** - Share your experience
+4. **Make a pull request** - Fix something you found
+5. **Help others** - Answer questions in discussions
 
 **Every contribution makes this better for the next person.**
 

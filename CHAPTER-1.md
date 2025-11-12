@@ -1,6 +1,8 @@
-# Chapter 1: Bootstrap Yourself
+# Chapter 1 (Windows): Bootstrap Yourself
 
 > **Mission:** Set up your development environment and take your first steps into the world of AI-assisted coding.
+
+> **On macOS?** Start with **[Chapter 1 (macOS): Bootstrap Yourself](./CHAPTER-1-macos.md)** instead.
 
 **Time Required:** 1-2 hours  
 **Prerequisites:** A Windows computer, an email address, and willingness to learn  
@@ -415,6 +417,88 @@ You should now:
 
 ---
 
+## Step 6: Connect via SSH & Sign the Guestbook
+
+You now have all the core tools. Next, you'll configure secure access to GitHub and make your first contribution to this project by signing the guestbook.
+
+### Why SSH?
+
+- 🔐 Secure login to GitHub without typing your password every time
+- 🚀 Required for pushing code changes from Windsurf/WSL
+- 🪪 Confirms you control your GitHub identity
+
+### Action Items
+
+#### 6.1 Open Your WSL Terminal
+
+- [ ] In Windsurf, press `` Ctrl+` `` to open the terminal (make sure it says `username@...` in a Linux prompt)
+- [ ] If you see a Windows prompt (e.g., `C:\`), type `wsl` and press Enter to switch into Linux
+
+#### 6.2 Check for Existing SSH Keys
+
+- [ ] Run: `ls ~/.ssh`
+- [ ] If you see files like `id_ed25519` and `id_ed25519.pub`, you may already have keys—skip to **6.4**
+- [ ] If the folder doesn't exist or is empty, continue to the next step
+
+#### 6.3 Generate a New SSH Key (Recommended: ed25519)
+
+- [ ] Run: `ssh-keygen -t ed25519 -C "your_email@example.com"`
+  - Replace the email with the one tied to your GitHub account
+- [ ] When prompted for a file location, press **Enter** to accept the default (`/home/yourname/.ssh/id_ed25519`)
+- [ ] When prompted for a passphrase, press **Enter** to leave it blank (or set one if you prefer extra security)
+
+#### 6.4 Start the SSH Agent & Add Your Key
+
+- [ ] Run: `eval "$(ssh-agent -s)"`
+- [ ] Run: `ssh-add ~/.ssh/id_ed25519`
+
+#### 6.5 Copy Your Public Key
+
+- [ ] Run: `cat ~/.ssh/id_ed25519.pub`
+- [ ] Highlight the entire line that starts with `ssh-ed25519` and copy it (right-click → Copy in Windsurf)
+- 💡 Tip: You can also run `clip.exe < ~/.ssh/id_ed25519.pub` to copy straight to the Windows clipboard
+
+#### 6.6 Add the Key to GitHub
+
+- [ ] Visit: **https://github.com/settings/ssh/new**
+- [ ] Title it something memorable (e.g., "Windsurf on Laptop")
+- [ ] Paste the public key, click **Add SSH key**
+- [ ] Confirm with your GitHub password or 2FA if prompted
+
+#### 6.7 Test the Connection
+
+- [ ] Back in WSL, run: `ssh -T git@github.com`
+- [ ] Type `yes` if asked to confirm the fingerprint
+- [ ] Success looks like: `Hi YOUR-USERNAME! You've successfully authenticated...`
+
+#### 6.8 Sign the Guestbook 🎉
+
+- [ ] In Windsurf, open `GUESTBOOK.md`
+- [ ] Add your entry **at the top** of the list using the template provided in the file
+- [ ] Example:
+  ```markdown
+  - [2025-11-12] Neo The Learner — Austin, TX — "sudo vibes activated"
+  ```
+- [ ] Ask the AI assistant to guide you through staging, committing, and pushing your change, or run:
+  ```bash
+  git add GUESTBOOK.md
+  git commit -m "Add <your name> to guestbook"
+  git push origin main
+  ```
+  (If `main` doesn't exist yet in your fork, Windsurf/AI will help you create it.)
+- [ ] Open your fork on GitHub and make sure the guestbook entry appears in your branch
+- [ ] Optional: open a pull request back to the main project to share your success
+
+### ✅ Checkpoint
+
+You should now:
+- Have an SSH key connected to GitHub
+- Be able to push code directly from Windsurf/WSL
+- See your name in `GUESTBOOK.md`
+- Understand how to create commits and interact with GitHub via SSH
+
+---
+
 ## Verification & Celebration
 
 ### Let's Confirm Everything Works
@@ -425,6 +509,8 @@ Run through this checklist:
 - [ ] I can log into GitHub
 - [ ] I can see my forked repository
 - [ ] I understand what version control is (tracking changes)
+- [ ] I've added an SSH key to GitHub
+- [ ] I signed the guestbook via a commit and push
 
 #### Windsurf
 - [ ] Windsurf is installed and opens

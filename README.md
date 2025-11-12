@@ -19,12 +19,17 @@ Think of it as **leveling up from normie to wizard**, one chapter at a time.
 ### Chapter 1: Bootstrap Yourself (You Are Here!)
 **Goal:** Get your development environment set up and understand the basics.
 
-You'll learn:
+Choose your operating system:
+- 🪟 **Windows:** [Chapter 1 (Windows): Bootstrap Yourself](./CHAPTER-1.md)
+- 🍎 **macOS:** [Chapter 1 (macOS): Bootstrap Yourself](./CHAPTER-1-macos.md)
+
+You'll learn (both paths):
 - ✅ What an IDE is and why it matters
 - ✅ Version control basics (Git & GitHub)
 - ✅ How to use Windsurf IDE
-- ✅ Installing WSL (Windows Subsystem for Linux)
 - ✅ How to ask AI for help
+
+Windows learners will also install **WSL (Windows Subsystem for Linux)**, while macOS learners set up **Xcode Command Line Tools + Homebrew**.
 
 **Time Investment:** 1-2 hours  
 **Difficulty:** Tutorial Island
@@ -57,7 +62,8 @@ You'll create a project based on YOUR entrepreneurial ideas. This chapter will b
 2. **Follow the chapters in order** - they build on each other
 3. **Check off boxes** as you complete steps
 4. **Ask questions** in GitHub Issues if you get stuck
-5. **Contribute back** if you find better ways to explain things
+5. **Sign the guestbook** after finishing Chapter 1 to prove your setup works
+6. **Contribute back** if you find better ways to explain things
 
 ## 🤝 Contributing
 
@@ -70,6 +76,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help make this better for th
 - [Glossary](./docs/glossary.md) - Technical terms explained in plain English
 - [Troubleshooting](./docs/troubleshooting.md) - Common issues and solutions
 - [Origin Story](./ORIGIN.md) - How this project came to be
+- [Guestbook](./GUESTBOOK.md) - Add your name once you complete Chapter 1
 
 ## 🎓 Philosophy
 
@@ -88,7 +95,9 @@ MIT License - Use this, share this, remix this. Just help others learn.
 
 Stop reading, start doing. Your journey begins here:
 
-### 👉 [Chapter 1: Bootstrap Yourself](./CHAPTER-1.md)
+### 👉 Pick your Chapter 1 path:
+- 🪟 [Start on Windows](./CHAPTER-1.md)
+- 🍎 [Start on macOS](./CHAPTER-1-macos.md)
 
 ---
 
