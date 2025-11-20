@@ -4,7 +4,7 @@
 
 **Time Required:** 1-2 hours  
 **Prerequisites:** A Windows computer, an email address, and willingness to learn  
-**What You'll Learn:** GitHub, Windsurf IDE, version control basics, and WSL installation
+**What You'll Learn:** GitHub, version control basics, installing Ubuntu 24.04 on WSL 2 before any IDE work, Windsurf fundamentals, and how to add the Memory + Sequential Thinking MCP servers
 
 ---
 
@@ -13,11 +13,12 @@
 1. [Before You Begin](#before-you-begin)
 2. [Step 1: Create Your GitHub Account](#step-1-create-your-github-account)
 3. [Step 2: Fork This Repository](#step-2-fork-this-repository)
-4. [Step 3: Create Your Windsurf Account](#step-3-create-your-windsurf-account)
-5. [Step 4: Understanding Your IDE](#step-4-understanding-your-ide)
-6. [Step 5: Install WSL with AI Help](#step-5-install-wsl-with-ai-help)
-7. [Verification & Celebration](#verification--celebration)
-8. [What's Next](#whats-next)
+4. [Step 3: Install Ubuntu 24.04 on WSL 2 (Before Any IDE)](#step-3-install-ubuntu-2404-on-wsl-2-before-any-ide)
+5. [Step 4: Create Your Windsurf Account](#step-4-create-your-windsurf-account)
+6. [Step 5: Understanding Your IDE](#step-5-understanding-your-ide)
+7. [Step 6: Add the Memory + Sequential Thinking MCP Servers](#step-6-add-the-memory--sequential-thinking-mcp-servers)
+8. [Verification & Celebration](#verification--celebration)
+9. [What's Next](#whats-next)
 
 ---
 
@@ -140,7 +141,93 @@ You should now:
 
 ---
 
-## Step 3: Create Your Windsurf Account
+## Step 3: Install Ubuntu 24.04 on WSL 2 (Before Any IDE)
+
+### Why WSL Comes First
+
+Installing Windows Subsystem for Linux **before** you ever open an IDE keeps every future workspace inside Linux, avoids race conditions with Windows-only terminals, and ensures Windsurf launches directly into Ubuntu. This is where your actual development happens, so we want it stable from the start.
+
+### Action Items
+
+#### 3.1 Update Windows and Enable Virtualization
+
+- [ ] Open **Settings → Windows Update** and install all pending updates
+- [ ] Reboot if prompted
+- [ ] Press `Ctrl+Shift+Esc`, click the **Performance** tab, and confirm "Virtualization" says **Enabled**
+- [ ] If it says Disabled, enter your BIOS/UEFI and enable Intel VT-x / AMD-V (your PC manual shows how)
+
+#### 3.2 Turn On WSL and Virtual Machine Platform
+
+- [ ] Right-click the **Start** button → **Windows Terminal (Admin)**
+- [ ] Run each command (press Enter after every line):
+
+```powershell
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+- [ ] Restart your PC when the commands finish
+
+#### 3.3 Install Ubuntu 24.04 LTS on WSL 2
+
+- [ ] Open **Windows Terminal (Admin)** again
+- [ ] Run:
+
+```powershell
+wsl --install -d Ubuntu-24.04
+wsl --set-default-version 2
+wsl --set-default Ubuntu-24.04
+```
+
+- [ ] Wait for the download to complete (5–15 minutes depending on bandwidth)
+- [ ] When prompted, restart one more time
+
+#### 3.4 Finish the First Boot
+
+- [ ] Launch **Ubuntu 24.04** from the Start Menu
+- [ ] Create a lowercase Linux username (e.g., `yourname`)
+- [ ] Create a password (characters won't show—totally normal)
+- [ ] Update packages so your environment is fresh:
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+#### 3.5 Create a Linux-Native Projects Folder
+
+Windows drives mount under `/mnt/c`, but storing code there can cause permission, path, and line-ending issues. Keep projects inside your Linux home directory instead.
+
+- [ ] Inside the Ubuntu terminal run:
+
+```bash
+mkdir -p ~/projects && cd ~/projects
+pwd
+```
+
+- [ ] Confirm the printed path starts with `/home/`
+
+#### 3.6 Verify Everything Is on WSL 2
+
+- [ ] Run `wsl -l -v` in Windows Terminal and confirm Ubuntu-24.04 shows **Version 2**
+- [ ] Run `cat /etc/os-release` inside Ubuntu to confirm you're on 24.04
+- [ ] Run `df -h .` while inside `~/projects` to double-check you are not on `/mnt/c`
+
+#### 3.7 Bookmark Troubleshooting
+
+- [ ] Skim the [troubleshooting guide](./docs/troubleshooting.md) for BIOS, update, or network issues
+- [ ] If anything fails, copy the exact error into an AI assistant (even the built-in Windows Copilot) before moving on
+
+### ✅ Checkpoint
+
+You should now:
+- Have Ubuntu 24.04 installed on WSL 2
+- Be able to launch Ubuntu from the Start Menu and land in `/home/YOURNAME`
+- Have a `~/projects` folder ready for future repos
+- Know where to look if WSL throws an error
+
+---
+
+## Step 4: Create Your Windsurf Account
 
 ### What is Windsurf?
 
@@ -164,13 +251,15 @@ But it's way more powerful! It has:
 
 ### Action Items
 
-#### 3.1 Download Windsurf
+#### 4.1 Download Windsurf
 
 - [ ] Go to: **https://codeium.com/windsurf**
 - [ ] Click "Download for Windows"
 - [ ] Wait for the download to complete (it's about 100-200 MB)
 
-#### 3.2 Install Windsurf
+> 💡 **Optional but appreciated:** If you want to toss a little love back to the maintainer, you can install via this referral URL: [https://windsurf.com/refer?referral_code=qzyamhddt0gky0zj](https://windsurf.com/refer?referral_code=qzyamhddt0gky0zj). If you choose that link, **we both get 250 bonus credits**, yet you still receive the exact same app and can keep using every free-tier model. Totally fine to skip if you prefer the direct download above.
+
+#### 4.2 Install Windsurf
 
 - [ ] Find the downloaded file (usually in your Downloads folder)
 - [ ] Double-click the installer
@@ -183,13 +272,13 @@ But it's way more powerful! It has:
 - [ ] Wait for installation to complete
 - [ ] Click "Finish"
 
-#### 3.3 Launch Windsurf
+#### 4.3 Launch Windsurf
 
 - [ ] Find Windsurf in your Start Menu
 - [ ] Click to launch it
 - [ ] Wait for it to open (first launch takes a moment)
 
-#### 3.4 Sign In or Create Account
+#### 4.4 Sign In or Create Account
 
 When Windsurf opens:
 - [ ] Click "Sign In" or "Get Started"
@@ -208,7 +297,9 @@ You should now:
 
 ---
 
-## Step 4: Understanding Your IDE
+## Step 5: Understanding Your IDE
+
+> **Why now?** With Ubuntu on WSL 2 already configured, Windsurf detects the Linux environment automatically. That means every terminal, workspace, and AI action you try in this section will run against the correct filesystem by default—no more getting stuck in Windows PowerShell.
 
 ### Take a Tour
 
@@ -253,7 +344,7 @@ Before we dive in, let's understand what you're looking at. Windsurf has several
 
 ### Action Items
 
-#### 4.1 Open Your Fork in Windsurf
+#### 5.1 Open Your Fork in Windsurf
 
 - [ ] In Windsurf, click "File" → "Open Folder"
 - [ ] Navigate to where you want to store your projects (e.g., `C:\Users\YourName\Projects`)
@@ -262,7 +353,7 @@ Before we dive in, let's understand what you're looking at. Windsurf has several
 
 **Wait!** You haven't downloaded your fork yet. Let's do that:
 
-#### 4.2 Clone Your Fork
+#### 5.2 Clone Your Fork
 
 "Cloning" means downloading your GitHub repository to your computer.
 
@@ -274,14 +365,14 @@ Before we dive in, let's understand what you're looking at. Windsurf has several
 
 **What just happened?** You downloaded your fork from GitHub to your computer. Now you can edit it!
 
-#### 4.3 Explore the Interface
+#### 5.3 Explore the Interface
 
 - [ ] Click on different files in the Explorer (left sidebar)
 - [ ] Notice how they open in the editor
 - [ ] Try opening multiple files (they appear as tabs)
 - [ ] Click the Source Control icon (looks like a branch) to see Git integration
 
-#### 4.4 Meet Your AI Assistant
+#### 5.4 Meet Your AI Assistant
 
 - [ ] Look for the AI/Cascade icon in the sidebar (or press `Ctrl+L`)
 - [ ] Click it to open the AI chat panel
@@ -297,121 +388,6 @@ You should now:
 - Understand the basic layout of an IDE
 - Know how to access the AI assistant
 - Feel comfortable clicking around
-
----
-
-## Step 5: Install WSL with AI Help
-
-### What is WSL?
-
-**WSL** = Windows Subsystem for Linux
-
-It's a way to run Linux on your Windows computer without:
-- Dual-booting
-- Virtual machines
-- Replacing Windows
-
-**Why do you need it?**
-- Many development tools work best on Linux
-- It's what most servers run
-- You'll learn commands that work everywhere
-- It's industry-standard
-
-**Think of it as:** Having a Linux computer inside your Windows computer.
-
-### The AI-Assisted Way
-
-Here's where it gets cool. Instead of following a long list of commands, you're going to **ask the AI to help you install WSL**. This teaches you:
-1. How to work with AI assistants
-2. How to troubleshoot when things go wrong
-3. The actual workflow of modern developers
-
-### Action Items
-
-#### 5.1 Open the Terminal in Windsurf
-
-- [ ] In Windsurf, press `` Ctrl+` `` (that's Ctrl and the backtick key)
-- [ ] Or click "Terminal" → "New Terminal" from the menu
-- [ ] You should see a terminal panel at the bottom
-
-#### 5.2 Ask the AI for Help
-
-- [ ] Open the AI assistant panel (`Ctrl+L`)
-- [ ] Type this prompt:
-
-```
-I need to install WSL (Windows Subsystem for Linux) on my Windows computer. 
-I'm a complete beginner. Can you guide me through the process step-by-step?
-Please check if WSL is already installed first, and then help me install it if needed.
-```
-
-- [ ] Press Enter and read the AI's response
-
-#### 5.3 Follow the AI's Instructions
-
-The AI will likely tell you to:
-
-1. **Check if WSL is already installed:**
-   - [ ] Run the command the AI suggests (probably `wsl --status` or `wsl -l -v`)
-   - [ ] Copy the output and share it with the AI
-
-2. **Install WSL if needed:**
-   - [ ] The AI will give you a command like: `wsl --install`
-   - [ ] Copy the command
-   - [ ] Paste it in the terminal
-   - [ ] Press Enter
-   - [ ] **Important:** You'll need to run the terminal as Administrator
-
-3. **Run Terminal as Administrator:**
-   - [ ] Close Windsurf
-   - [ ] Right-click on Windsurf in the Start Menu
-   - [ ] Click "Run as Administrator"
-   - [ ] Open the terminal again
-   - [ ] Run the install command
-
-4. **Wait for Installation:**
-   - [ ] WSL will download (this can take 5-15 minutes)
-   - [ ] You may need to restart your computer
-   - [ ] After restart, open Windsurf again
-
-5. **Set Up Ubuntu (or your chosen Linux distribution):**
-   - [ ] After installation, Ubuntu will launch automatically
-   - [ ] Create a username (all lowercase, no spaces)
-   - [ ] Create a password (you won't see it as you type—this is normal!)
-   - [ ] Confirm your password
-
-#### 5.4 Verify WSL is Working
-
-- [ ] In Windsurf's terminal, type: `wsl --version`
-- [ ] You should see version information
-- [ ] Type: `wsl` to enter the Linux environment
-- [ ] You should see a Linux prompt (looks like `username@computername:~$`)
-- [ ] Type: `ls` (lists files)
-- [ ] Type: `pwd` (shows current directory)
-- [ ] Type: `exit` to return to Windows
-
-### 🎓 What You Just Learned
-
-- **How to use a terminal** - You ran actual commands!
-- **How to work with AI** - You asked for help and followed instructions
-- **How to troubleshoot** - You probably hit a snag and figured it out
-- **Linux basics** - You ran Linux commands
-- **Administrator privileges** - You learned about permissions
-
-### ✅ Checkpoint
-
-You should now:
-- Have WSL installed
-- Be able to enter the Linux environment with `wsl`
-- Have run basic Linux commands
-- Understand how to ask AI for help
-
-**Stuck?** This is the most complex step. Common issues:
-- Need to enable virtualization in BIOS
-- Windows version too old (need Windows 10 version 2004+ or Windows 11)
-- Need to update Windows first
-
-**Ask the AI!** Paste any error messages into the AI chat and ask for help.
 
 ---
 
