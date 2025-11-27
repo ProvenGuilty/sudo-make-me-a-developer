@@ -33,22 +33,27 @@
 - Your reputation as educator/innovator
 
 ### Track 2: Personal Super App (Future)
-**Vision:** WeChat-style super app for your business ecosystem
+**Vision:** Peasant - A modular super app for working-class financial empowerment
 
-**What:**
-- Start with Peasant foundation
-- Add modules over time:
-  - Budget management (Peasant core)
-  - Business banking
-  - Invoicing/payments
-  - Expense tracking
-  - Tax preparation
-  - Investment tracking
-  - Financial planning
-  - AI financial advisor
-  - Marketplace integrations
-  - Business tools
-  - Community features
+**The Plugin Model:**
+- **Base App:** $0.99 (includes Budget plugin)
+- **Each Plugin:** $0.99 (modular, buy what you need)
+- **No subscriptions** - One-time purchases
+- **See [PEASANT-PLUGINS.md](./PEASANT-PLUGINS.md) for complete roadmap**
+
+**Planned Plugins:**
+1. **Budget Repair & Balance** (included in base) - Track spending, kill subscriptions
+2. **Credit Repair Toolkit** - 580 to 750 credit score guide
+3. **Debt Destroyer** - Get out of debt without bankruptcy
+4. **Car Buying Mastery** - Never get ripped off at dealership
+5. **Health Insurance Optimizer** - HSA vs PPO, stop overpaying
+6. **Investment Starter** - From peasant to investor
+7. **Side Hustle Tracker** - Turn skills into cash
+8. **Home Buying Calculator** - Rent vs buy, the real math
+9. **Peasant Pay** - Payments and transfers (free, make money on fees)
+10. **Peasant Banking** - Your bank, but better (free, make money on deposits)
+11. **Peasant University** - Financial education courses
+12. **Peasant Community** - Connect with other peasants (free)
 
 **Why:**
 - ✅ **Vertical integration** - Own the full stack

@@ -103,6 +103,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help make this better for th
 - [Troubleshooting](./docs/troubleshooting.md) - Common issues and solutions
 - [Origin Story](./ORIGIN.md) - How this project came to be
 - [Vision](./VISION.md) - Long-term super app vision
+- [Peasant Plugins](./PEASANT-PLUGINS.md) - Complete plugin ecosystem roadmap
 - [Monetization Strategy](./MONETIZATION-STRATEGY.md) - Optional pricing guidance for learners
 
 ## 🎓 Philosophy
