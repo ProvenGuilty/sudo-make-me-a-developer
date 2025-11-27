@@ -43,8 +43,9 @@ You'll learn:
 
 👉 **[Start Chapter 1](./CHAPTER-1.md)**
 
-### Chapter 2: Build PayFlow - Your AI Budget Assistant
-**Goal:** Build a real web app that helps people manage their money with AI.
+### Chapter 2: Build Peasant - Your AI Budget Assistant
+**Goal:** Build a real web app that helps people manage their money with AI.  
+**"Finance for the rest of us"** 💰
 
 You'll learn:
 - ✅ Git workflow mastery (branches, commits, PRs)
@@ -116,7 +117,9 @@ This isn't about memorizing syntax or becoming a "10x engineer" overnight. It's 
 
 ## 🌟 The Vision
 
-This course teaches you to build **PayFlow** - an AI-powered budget app. But it's more than just a tutorial:
+This course teaches you to build **Peasant** - an AI-powered budget app for the working class. But it's more than just a tutorial:
+
+> **"Democratizing wealth-building tools that the upper class has always had access to"**
 
 **For Learners:**
 - Build a real app from scratch

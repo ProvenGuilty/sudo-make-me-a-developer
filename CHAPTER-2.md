@@ -1,6 +1,7 @@
-# Chapter 2: Build PayFlow - Your AI Budget Assistant
+# Chapter 2: Build Peasant - Your AI Budget Assistant
 
-> **Mission:** Build a real web app that helps people manage their money with AI assistance.
+> **Mission:** Build a real web app that helps people manage their money with AI assistance.  
+> **"Finance for the rest of us"** - Because we're all just peasants with smartphones.
 
 **Time Required:** 3-4 hours  
 **Prerequisites:** Chapter 1 completed  
@@ -32,8 +33,8 @@
 - Debt feels overwhelming
 - Budgeting apps are too complicated
 
-**Your Solution: PayFlow**
-An AI-powered budget assistant that:
+**Your Solution: Peasant**
+An AI-powered budget assistant for the working class that:
 - ✅ Tracks spending by pay period (bi-monthly)
 - ✅ AI categorizes transactions automatically
 - ✅ Detects subscription bleed
@@ -357,9 +358,9 @@ Show me exactly what to put in each file.
 I have a fresh Vite + React project. Please help me:
 1. Clean up the default App.jsx to be empty and ready for my budget app
 2. Remove unnecessary starter files
-3. Create a basic structure for my PayFlow app
+3. Create a basic structure for my Peasant app
 
-Keep it simple - just a header that says "PayFlow" for now.
+Keep it simple - just a header that says "Peasant" for now.
 ```
 
 - [ ] Follow AI's instructions
@@ -393,7 +394,7 @@ You should now have:
 - [ ] Tailwind CSS working
 - [ ] Clean App.jsx ready to build
 - [ ] First commit pushed to GitHub
-- [ ] Basic "PayFlow" header showing
+- [ ] Basic "Peasant" header showing
 
 **Stuck?** Ask the AI assistant! Paste any error messages and ask for help.
 
@@ -410,7 +411,7 @@ First, let's organize our code:
 - [ ] Ask AI:
 
 ```
-I'm building a budget app called PayFlow. Please help me create a good folder structure:
+I'm building a budget app called Peasant. Please help me create a good folder structure:
 
 src/
   components/  (reusable UI components)

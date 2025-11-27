@@ -13,7 +13,7 @@
 **What:**
 - Free, open-source curriculum
 - Complete beginner → App Store journey
-- PayFlow as the teaching vehicle
+- Peasant as the teaching vehicle
 - Community-driven improvements
 - No paywalls, no gatekeeping
 
@@ -27,7 +27,7 @@
 
 **Outcome:**
 - Hundreds/thousands learn to code
-- PayFlow apps in App Store (learners' versions)
+- Peasant apps in App Store (learners' versions)
 - Proven curriculum
 - Strong community
 - Your reputation as educator/innovator
@@ -36,9 +36,9 @@
 **Vision:** WeChat-style super app for your business ecosystem
 
 **What:**
-- Start with PayFlow foundation
+- Start with Peasant foundation
 - Add modules over time:
-  - Budget management (PayFlow core)
+  - Budget management (Peasant core)
   - Business banking
   - Invoicing/payments
   - Expense tracking
@@ -88,7 +88,7 @@
 
 ### Your Super App Vision
 
-**Start:** PayFlow (budget management)
+**Start:** Peasant (budget management)
 
 **Add Layer 1: Financial Core**
 - Banking integration
@@ -199,7 +199,7 @@ Sustainable Business
 - Chapter 6: App Store Launch
 
 **All Code:**
-- PayFlow source code
+- Peasant source code
 - Example implementations
 - Starter templates
 - Helper libraries
@@ -247,11 +247,11 @@ Sustainable Business
 
 ### Phase 2: Course + Your App (Years 2-3)
 **Revenue:** $0 from course, $ from your app  
-**Investment:** Build your version of PayFlow  
+**Investment:** Build your version of Peasant  
 **Return:** Early revenue, user feedback
 
 **Focus:**
-- Launch your PayFlow app
+- Launch your Peasant app
 - Different branding from course
 - Premium features learners don't get
 - Test monetization
@@ -289,7 +289,7 @@ Sustainable Business
 
 **Course Version (Open-Source):**
 ```
-PayFlow Core
+Peasant Core
 ├── Transaction management
 ├── AI categorization
 ├── Budget tracking
@@ -299,7 +299,7 @@ PayFlow Core
 
 **Your Version (Proprietary):**
 ```
-PayFlow Pro (built on same foundation)
+Peasant Pro (built on same foundation)
 ├── Everything from course
 ├── Bank sync (Plaid integration)
 ├── Advanced AI features
@@ -312,7 +312,7 @@ PayFlow Pro (built on same foundation)
 **Super App (Future):**
 ```
 Your Business Platform
-├── PayFlow Pro (budget core)
+├── Peasant Pro (budget core)
 ├── Business Banking
 ├── Invoicing Suite
 ├── Tax Prep
@@ -343,8 +343,8 @@ Your Business Platform
 6. **2020:** Everything app (1B+ users)
 
 ### Your Potential Journey
-1. **2025:** PayFlow course (teach budgeting)
-2. **2026:** Your PayFlow app (premium budget app)
+1. **2025:** Peasant course (teach budgeting)
+2. **2026:** Your Peasant app (premium budget app)
 3. **2027:** Add business features (invoicing, expenses)
 4. **2028:** Financial services (banking, investing)
 5. **2029:** Ecosystem (marketplace, integrations)
@@ -426,7 +426,7 @@ Your Business Platform
 - [ ] Market validation
 
 ### Year 2: Your App
-- [ ] Build your PayFlow Pro
+- [ ] Build your Peasant Pro
 - [ ] Different branding
 - [ ] Premium features
 - [ ] Launch to App Store
@@ -546,7 +546,7 @@ Your Business Platform
 - [ ] 100+ learners complete course
 - [ ] 10+ apps in App Store
 - [ ] Strong community
-- [ ] Plan your PayFlow Pro
+- [ ] Plan your Peasant Pro
 - [ ] Start building your version
 
 ### Long-term (Years 2-5)

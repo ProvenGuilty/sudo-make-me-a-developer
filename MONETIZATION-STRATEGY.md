@@ -1,4 +1,4 @@
-# PayFlow Monetization Strategy
+# Peasant Monetization Strategy
 
 > **Course Strategy:** Free and open-source forever  
 > **Learner Apps:** Optional $0.99 pricing (learners choose)  
@@ -27,7 +27,7 @@
 ### Track 2: Your Super App (Future)
 **Your personal business built on same foundation.**
 
-- Your own version of PayFlow Pro
+- Your own version of Peasant Pro
 - Premium features beyond course
 - WeChat-style super app vision
 - Multiple revenue streams
@@ -43,7 +43,7 @@
 
 ## 💰 Learner Monetization (Optional)
 
-> **Note:** Learners who complete the course can choose to launch their PayFlow app as free or paid. This section is guidance for those who want to monetize.
+> **Note:** Learners who complete the course can choose to launch their Peasant app as free or paid. This section is guidance for those who want to monetize.
 
 ---
 
@@ -95,7 +95,7 @@
 
 ## 🎯 Value Proposition
 
-### What Makes PayFlow Worth $0.99?
+### What Makes Peasant Worth $0.99?
 
 **Unique Features:**
 1. **AI-Powered Categorization** - Automatically sorts transactions
@@ -124,7 +124,7 @@
 ## 📱 App Store Listing Strategy
 
 ### App Name
-**Primary:** "PayFlow - AI Budget Assistant"  
+**Primary:** "Peasant - AI Budget Assistant"  
 **Subtitle:** "Smart Budgeting for Bi-Monthly Pay"
 
 ### Description (First 170 characters - most important)
@@ -266,7 +266,7 @@ budget,finance,money,paycheck,biweekly,debt,savings,ai,spending,tracker
 
 ### Beyond the Money
 
-Even if PayFlow only makes $50/year, you'll gain:
+Even if Peasant only makes $50/year, you'll gain:
 
 **Portfolio Value:**
 - ✅ Published app developer
@@ -299,7 +299,7 @@ Even if PayFlow only makes $50/year, you'll gain:
 
 ## 💡 Future Monetization Options
 
-### If PayFlow Takes Off
+### If Peasant Takes Off
 
 **Option 1: Keep It Simple**
 - Stay at $0.99
@@ -492,7 +492,7 @@ This isn't just about making $0.99 per download. It's about:
 - Shipping a product
 - Becoming a developer who ships
 
-**Even if PayFlow only makes $50 in its lifetime, you'll have:**
+**Even if Peasant only makes $50 in its lifetime, you'll have:**
 - A published app
 - Full-stack development skills
 - AI integration experience

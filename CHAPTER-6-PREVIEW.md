@@ -1,6 +1,6 @@
-# Chapter 6 Preview: Launch PayFlow to the App Store
+# Chapter 6 Preview: Launch Peasant to the App Store
 
-> **Mission:** Submit PayFlow to the Apple App Store as a $0.99 paid app and get your first customers!
+> **Mission:** Submit Peasant to the Apple App Store as a $0.99 paid app and get your first customers!
 
 **Coming Soon** - Complete this after Chapters 2-5
 
@@ -9,7 +9,7 @@
 ## What You'll Accomplish
 
 By the end of Chapter 6, you'll have:
-- ✅ PayFlow live on the Apple App Store
+- ✅ Peasant live on the Apple App Store
 - ✅ A $0.99 paid app generating revenue
 - ✅ Real customers using your app
 - ✅ Published app developer status
@@ -82,7 +82,7 @@ By the end of Chapter 6, you'll have:
 
 ### What You're Really Getting
 
-Even if PayFlow only makes $50:
+Even if Peasant only makes $50:
 - ✅ Published app developer credential
 - ✅ Full product development experience
 - ✅ App Store submission knowledge
@@ -278,7 +278,7 @@ Yes! You can submit updates anytime. Most developers update monthly.
 
 ### Beyond the Money
 
-Launching PayFlow teaches you:
+Launching Peasant teaches you:
 - **Full product lifecycle** - Idea → Build → Ship → Maintain
 - **Real-world constraints** - Platform rules, user expectations
 - **Business fundamentals** - Pricing, marketing, support
