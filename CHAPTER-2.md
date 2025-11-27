@@ -411,26 +411,57 @@ Please give me the commands to install and configure these.
 
 **Expected commands:**
 ```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+# Install Tailwind CSS v4 and dependencies
+npm install -D tailwindcss postcss autoprefixer @tailwindcss/postcss
+
+# Install other packages
 npm install recharts date-fns lucide-react
 ```
 
-### Part 3: Set Up Tailwind CSS
+**Note:** Tailwind v4 uses a different setup than v3. No need to run `npx tailwindcss init`!
 
-- [ ] Ask AI:
+### Part 3: Set Up Tailwind CSS v4
 
-```
-I just installed Tailwind CSS. Please help me:
-1. Configure tailwind.config.js
-2. Update my CSS file to include Tailwind
-3. Verify it's working with a simple test
+**Tailwind v4 is different!** No config file needed.
 
-Show me exactly what to put in each file.
+- [ ] Update `src/index.css` - Replace everything with:
+```css
+@import "tailwindcss";
 ```
 
-- [ ] Follow AI's instructions
+- [ ] Create `postcss.config.js` in project root:
+```js
+export default {
+  plugins: {
+    '@tailwindcss/postcss': {},
+    autoprefixer: {},
+  },
+}
+```
+
+- [ ] Test it! Update `src/App.jsx`:
+```jsx
+import { DollarSign } from 'lucide-react'
+
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+      <div className="text-center">
+        <DollarSign className="w-16 h-16 mx-auto mb-4 text-green-500" />
+        <h1 className="text-4xl font-bold">My App</h1>
+        <p className="text-gray-400">It works! 🎉</p>
+      </div>
+    </div>
+  )
+}
+
+export default App
+```
+
 - [ ] Restart dev server: `npm run dev`
+- [ ] You should see: Dark background, green icon, styled text
+
+**If styles don't load:** Make sure you're using `@import "tailwindcss"` (not `@tailwind` directives)
 
 ### Part 4: Clean Up Starter Files
 
@@ -466,8 +497,10 @@ git commit -m "Initial setup: Vite + React + Tailwind"
 
 - [ ] Push to GitHub:
 ```bash
-git push origin setup-project
+git push -u origin setup-project
 ```
+
+**Note:** The `-u` flag sets up tracking so future pushes are easier.
 
 ### ✅ Checkpoint
 
@@ -905,14 +938,74 @@ Finally, launch it:
 
 ---
 
+## Merge to Main Branch
+
+Once your setup is working, merge it to main:
+
+```bash
+# Create main branch from setup-project
+git checkout -b main
+
+# Push main to GitHub
+git push -u origin main
+```
+
+**What this does:**
+- Creates `main` branch with all your setup code
+- Sets `main` as your production branch
+- You can now create feature branches from `main`
+
+**Going forward:**
+```bash
+# Start new features from main
+git checkout main
+git checkout -b feature-name
+
+# When done, merge back to main
+git checkout main
+git merge feature-name
+```
+
+---
+
 ## Troubleshooting
 
 ### Common Issues
 
+#### Tailwind Styles Not Loading
+**Problem:** Background not dark, icons not colored, no styling
+
+**Solution:**
+1. Check `src/index.css` has: `@import "tailwindcss";` (NOT `@tailwind` directives)
+2. Check `postcss.config.js` uses: `'@tailwindcss/postcss': {}`
+3. Restart dev server: Stop (Ctrl+C) and run `npm run dev` again
+4. Clear browser cache (Ctrl+Shift+R)
+
+#### "npx tailwindcss init" Fails
+**Problem:** `npm error could not determine executable to run`
+
+**Solution:** 
+- Tailwind v4 doesn't need `npx tailwindcss init`!
+- Just create `postcss.config.js` manually
+- Use `@import "tailwindcss"` in CSS
+
 #### "npm command not found"
-- Node.js not installed
+**Problem:** Node.js not installed
+
+**Solution:**
 - Install from https://nodejs.org
 - Restart terminal
+- Verify: `node --version`
+
+#### Git "pathspec 'main' did not match"
+**Problem:** Trying to checkout `main` branch that doesn't exist yet
+
+**Solution:**
+```bash
+# Create main branch first
+git checkout -b main
+git push -u origin main
+```
 
 #### "OpenAI API errors"
 - Check API key is correct
