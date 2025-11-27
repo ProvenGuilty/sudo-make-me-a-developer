@@ -102,9 +102,12 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help make this better for th
 - [Glossary](./docs/glossary.md) - Technical terms explained in plain English
 - [Troubleshooting](./docs/troubleshooting.md) - Common issues and solutions
 - [Origin Story](./ORIGIN.md) - How this project came to be
-- [Vision](./VISION.md) - Long-term super app vision
-- [Peasant Plugins](./PEASANT-PLUGINS.md) - Complete plugin ecosystem roadmap
-- [Monetization Strategy](./MONETIZATION-STRATEGY.md) - Optional pricing guidance for learners
+
+## 🚀 The Peasant Project
+
+Want to see where this is headed? Check out the [Peasant repository](https://github.com/ProvenGuilty/peasant) - the actual product being built from these lessons.
+
+**Peasant** is a modular financial super app for working-class people. This course teaches you to build the foundation (Budget plugin), and the Peasant repo shows the full vision.
 
 ## 🎓 Philosophy
 
@@ -116,23 +119,31 @@ This isn't about memorizing syntax or becoming a "10x engineer" overnight. It's 
 - **No gatekeeping** - Everyone starts somewhere
 - **Free forever** - Knowledge should be accessible to all
 
-## 🌟 The Vision
+## 🌟 What You'll Build
 
-This course teaches you to build **Peasant** - an AI-powered budget app for the working class. But it's more than just a tutorial:
+This course teaches you to build the **Budget plugin** for Peasant - an AI-powered budget tracker for working-class people.
 
-> **"Democratizing wealth-building tools that the upper class has always had access to"**
-
-**For Learners:**
+**What You'll Learn:**
 - Build a real app from scratch
-- Ship to the App Store
-- Learn AI-assisted development
-- Join a supportive community
-- Launch your developer career
+- Ship to the App Store  
+- AI-assisted development
+- Full-stack development
+- React Native mobile apps
 
-**The Bigger Picture:**
-This course demonstrates that AI-assisted development makes coding accessible to everyone. What starts as a budget app can evolve into anything - a super app, a business platform, or your own unique vision.
+**What You'll Create:**
+- Transaction tracking
+- AI categorization
+- Budget vs actual
+- Subscription detection
+- Bi-monthly pay period optimization
+- AI-powered insights
 
-See [VISION.md](./VISION.md) for the long-term super app roadmap.
+**Your Version:**
+- Fully functional budget app
+- Your own branding
+- Your own features
+- Published to App Store
+- Portfolio piece for jobs
 
 ## 📜 License
 
