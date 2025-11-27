@@ -105,9 +105,11 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help make this better for th
 
 ## 🚀 The Peasant Project
 
-Want to see where this is headed? Check out the [Peasant repository](https://github.com/ProvenGuilty/peasant) - the actual product being built from these lessons.
+Want to see where this is headed? Check out **[Peasant](https://github.com/ProvenGuilty/peasant)** - the actual product being built from these lessons.
 
-**Peasant** is a modular financial super app for working-class people. This course teaches you to build the foundation (Budget plugin), and the Peasant repo shows the full vision.
+**Peasant** is a modular financial super app for working-class people. This course teaches you to build the foundation (Budget plugin), and the Peasant repo shows the full vision with 13 planned plugins.
+
+👉 **[View Peasant on GitHub](https://github.com/ProvenGuilty/peasant)**
 
 ## 🎓 Philosophy
 
