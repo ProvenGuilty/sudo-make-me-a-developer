@@ -273,7 +273,7 @@ git branch -M main
 
 **peasant example:**
 - Name: `peasant-budget`
-- Description: `AI-powered budget tracker for bi-monthly pay periods`
+- Description: `AI-powered budget tracker for survival between pay periods`
 
 #### Step 3: Connect Local to GitHub
 
