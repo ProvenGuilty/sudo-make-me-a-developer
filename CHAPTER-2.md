@@ -343,7 +343,7 @@ git merge feature-name
 ### ✅ Checkpoint
 
 You should now:
-- [ ] Have `payflow` directory
+- [ ] Have your project directory (e.g., `peasant-budget`)
 - [ ] Git initialized
 - [ ] Connected to GitHub
 - [ ] On `setup-project` branch
@@ -363,7 +363,7 @@ Vite is a modern tool that creates React apps super fast.
 - [ ] Use this prompt:
 
 ```
-I'm in an empty directory called 'payflow'. I want to create a React app using Vite.
+I'm in an empty directory for my app project. I want to create a React app using Vite.
 Please give me the exact commands to:
 1. Create a new Vite + React project
 2. Install dependencies
@@ -798,7 +798,7 @@ What do I need to check before deploying?
 - [ ] Go to https://vercel.com
 - [ ] Sign up with GitHub
 - [ ] Click "New Project"
-- [ ] Import your `payflow` repository
+- [ ] Import your project repository
 - [ ] Configure:
   - Framework Preset: Vite
   - Root Directory: ./
@@ -817,7 +817,7 @@ What do I need to check before deploying?
 
 ### Part 4: Your App is Live!
 
-- [ ] Vercel gives you a URL: `payflow-xxx.vercel.app`
+- [ ] Vercel gives you a URL: `your-app-xxx.vercel.app`
 - [ ] Click it to see your live app
 - [ ] Test all features
 - [ ] Share with friends!
