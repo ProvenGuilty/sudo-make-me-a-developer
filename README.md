@@ -31,10 +31,29 @@ You'll learn:
 
 👉 **[Start Chapter 1](./CHAPTER-1.md)**
 
-### Chapter 2: Your First AI-Powered Project (Coming Soon)
-**Goal:** Build something real using AI assistance.
+### Chapter 2: Build PayFlow - Your AI Budget Assistant
+**Goal:** Build a real web app that helps people manage their money with AI.
 
-You'll create a project based on YOUR entrepreneurial ideas. This chapter will be co-created by the community as people complete Chapter 1 and share what they want to build.
+You'll learn:
+- ✅ Git workflow mastery (branches, commits, PRs)
+- ✅ React fundamentals (components, state, hooks)
+- ✅ AI integration (OpenAI API)
+- ✅ Modern web development (Tailwind CSS, Vite)
+- ✅ Deployment (Vercel)
+
+**What You'll Build:**
+An AI-powered budget app for bi-monthly pay periods that:
+- Tracks income and expenses
+- AI categorizes transactions automatically
+- Detects subscription bleed
+- Provides smart financial insights
+- Helps optimize your budget
+
+**Time Investment:** 3-4 hours  
+**Difficulty:** Beginner-friendly with AI help  
+**Outcome:** Live web app → Mobile app (Ch 3) → App Store (Ch 6)
+
+👉 **[Start Chapter 2](./CHAPTER-2.md)**
 
 ## 🤔 Who Is This For?
 
