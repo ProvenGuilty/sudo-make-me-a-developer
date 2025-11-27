@@ -1,12 +1,40 @@
-# Chapter 2: Build Peasant - Your AI Budget Assistant
+# Chapter 2: Build Your First App with AI
 
-> **Mission:** Build a real web app that helps people manage their money with AI assistance.  
-> **"Finance for the rest of us"** - Because we're all just peasants with smartphones.
+> **Mission:** Choose your idea. Build it with AI. Ship it to production.
 
 **Time Required:** 3-4 hours  
 **Prerequisites:** Chapter 1 completed  
-**What You'll Build:** A working budget app with AI-powered features  
-**End Goal:** Live web app → Mobile app → App Store (Chapters 3-6)
+**What You'll Build:** A working web app that solves a real problem  
+**End Goal:** Live web app → Mobile app (Ch 3) → App Store (Ch 4-6)
+
+---
+
+## 🎯 Choose Your Adventure
+
+**This chapter teaches you to build a web app. But what app?**
+
+**That's up to you!**
+
+You could build:
+- 📊 Budget tracker
+- 📝 Habit tracker
+- 🍳 Recipe organizer
+- 💪 Workout logger
+- 📚 Book club manager
+- 🐾 Pet care tracker
+- 🎯 Goal planner
+- 📅 Event organizer
+- Or literally anything else!
+
+**The Example: peasant**
+
+Throughout this chapter, I'll show examples from building **peasant** - a budget tracker that's part of a larger financial super app.
+
+> **peasant** - "Everything a modern peasant needs" 💰
+
+But you should build YOUR idea. The skills are the same, the outcome is yours.
+
+**👉 [Check out peasant on GitHub](https://github.com/ProvenGuilty/peasant)** to see the full vision.
 
 ---
 
@@ -24,44 +52,63 @@
 
 ## The Big Picture
 
-### Why This App?
+### Why Build an App?
 
-**The Problem:**
+**You're not just learning to code. You're learning to:**
+- Solve real problems
+- Build products people actually use
+- Ship to production
+- Use AI as your co-pilot
+- Think like an entrepreneur
+
+### The Example: peasant Budget Plugin
+
+**My Problem:**
 - Most people live paycheck to paycheck
 - Bi-monthly pay periods are confusing
 - Subscriptions silently drain money
-- Debt feels overwhelming
 - Budgeting apps are too complicated
 
-**Your Solution: Peasant**
-An AI-powered budget assistant for the working class that:
+**My Solution: peasant budget plugin**
+An AI-powered budget tracker that:
 - ✅ Tracks spending by pay period (bi-monthly)
 - ✅ AI categorizes transactions automatically
 - ✅ Detects subscription bleed
 - ✅ Shows budget vs actual in real-time
 - ✅ Provides AI insights and recommendations
 
+### 💭 Your Turn: What Problem Will You Solve?
+
+Before we start coding, think about:
+- What frustrates you daily?
+- What do you wish existed?
+- What would make your life easier?
+- What would help others?
+
+**Write it down:**
+- **My Problem:** _____________________
+- **My Solution:** _____________________
+- **Key Features:** _____________________
+
+Don't overthink it! You can always change it later.
+
 ### The Journey Ahead
 
 ```
-Chapter 2: Web App (Basic Features)
+Chapter 2: Web App (Your Idea)
     ↓
 Chapter 3: Mobile App (React Native)
     ↓
-Chapter 4: Advanced Features (Debt calculator, statement import)
+Chapter 4-6: Polish & Launch
     ↓
-Chapter 5: Production Ready (Security, encryption)
-    ↓
-Chapter 6: App Store Launch
-    ↓
-🎉 REAL FINTECH APP!
+🎉 YOUR APP IN THE APP STORE!
 ```
 
 ### What You'll Learn in Chapter 2
 
 - ✅ **Git workflow** - Branches, commits, pull requests
 - ✅ **React fundamentals** - Components, state, hooks
-- ✅ **AI integration** - OpenAI API for smart categorization
+- ✅ **AI integration** - OpenAI API for smart features
 - ✅ **Data handling** - Forms, validation, storage
 - ✅ **Modern CSS** - Tailwind for beautiful UI
 - ✅ **Deployment** - Ship to production
@@ -69,11 +116,25 @@ Chapter 6: App Store Launch
 **Time Investment:** 3-4 hours  
 **Outcome:** Live web app you can actually use!
 
+**peasant example:** Budget tracker with AI categorization  
+**Your app:** Whatever you want to build!
+
 ---
 
 ## What We're Building
 
-### Chapter 2 MVP Features
+### Your App's Core Features
+
+Every good app needs:
+1. **Data Entry** - Add/edit/delete items
+2. **Data Display** - Show items in a useful way
+3. **Smart Features** - AI makes it better
+4. **Visual Feedback** - Charts, progress, insights
+5. **Simple Dashboard** - Overview at a glance
+
+### Example: peasant Budget Plugin
+
+Here's what I'm building for peasant:
 
 #### 1. Transaction Entry 💰
 - Add income and expenses
@@ -99,6 +160,19 @@ Chapter 6: App Store Launch
 - Current period summary
 - Spending by category
 - AI-powered insights
+
+### 💭 Your Turn: What Features Do You Need?
+
+Based on your app idea, what 3-5 core features do you need?
+
+**My core features:**
+1. _____________________
+2. _____________________
+3. _____________________
+4. _____________________
+5. _____________________
+
+Keep it simple! You can always add more later.
 
 ### What We're NOT Building Yet
 
@@ -174,9 +248,13 @@ cd ~/Projects
 
 - [ ] Create new directory:
 ```bash
-mkdir payflow
-cd payflow
+mkdir my-app
+cd my-app
 ```
+
+**💭 Your Turn:** Choose your project name!
+- peasant example: `peasant-budget`
+- Your app: `my-app` or whatever you want!
 
 - [ ] Initialize Git:
 ```bash
@@ -187,20 +265,24 @@ git branch -M main
 #### Step 2: Create on GitHub
 
 - [ ] Go to https://github.com/new
-- [ ] Repository name: `payflow`
-- [ ] Description: `AI-powered budget assistant for bi-monthly pay periods`
+- [ ] Repository name: Your project name (e.g., `my-app`)
+- [ ] Description: Brief description of your app
 - [ ] Public repository
 - [ ] **Don't** initialize with README
 - [ ] Click "Create repository"
+
+**peasant example:**
+- Name: `peasant-budget`
+- Description: `AI-powered budget tracker for bi-monthly pay periods`
 
 #### Step 3: Connect Local to GitHub
 
 - [ ] Copy the commands GitHub shows you, or use these:
 ```bash
-git remote add origin git@github.com:YOUR-USERNAME/payflow.git
+git remote add origin git@github.com:YOUR-USERNAME/your-app-name.git
 ```
 
-Replace `YOUR-USERNAME` with your actual GitHub username.
+Replace `YOUR-USERNAME` and `your-app-name` with your actual values.
 
 #### Step 4: Create Your First Branch
 
