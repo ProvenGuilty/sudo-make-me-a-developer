@@ -1,8 +1,20 @@
 # sudo make-me-a-developer
 
-> **From Zero to AI-Powered Coder: A Neck-Beard Approved Journey** 🧙‍♂️
+> **From Zero to AI-Powered Coder: A Neck-Beard Approved Journey** 🧙‍♂️  
+> **100% Free • Open-Source • No Paywalls • Real Apps**
 
 Welcome, brave soul! You've stumbled upon the ultimate bootcamp for transforming from a complete noob into an AI-assisted developer. No prior coding experience? No Linux knowledge? Never touched an IDE? **Perfect.** You're exactly who this is for.
+
+## 🎁 Completely Free Forever
+
+This entire course is **free and open-source**. No hidden costs, no premium tiers, no bait-and-switch. You'll learn to build and ship a real app to the App Store without paying for the course.
+
+**What's included:**
+- ✅ Complete curriculum (6 chapters)
+- ✅ All source code (MIT License)
+- ✅ Community support
+- ✅ Real App Store deployment
+- ✅ No paywalls, ever
 
 ## 🎯 What Is This?
 
@@ -89,6 +101,8 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to help make this better for th
 - [Glossary](./docs/glossary.md) - Technical terms explained in plain English
 - [Troubleshooting](./docs/troubleshooting.md) - Common issues and solutions
 - [Origin Story](./ORIGIN.md) - How this project came to be
+- [Vision](./VISION.md) - Long-term super app vision
+- [Monetization Strategy](./MONETIZATION-STRATEGY.md) - Optional pricing guidance for learners
 
 ## 🎓 Philosophy
 
@@ -98,6 +112,23 @@ This isn't about memorizing syntax or becoming a "10x engineer" overnight. It's 
 - **Community-driven** - We all learn together
 - **Practical over theoretical** - Get stuff working first, understand deeply later
 - **No gatekeeping** - Everyone starts somewhere
+- **Free forever** - Knowledge should be accessible to all
+
+## 🌟 The Vision
+
+This course teaches you to build **PayFlow** - an AI-powered budget app. But it's more than just a tutorial:
+
+**For Learners:**
+- Build a real app from scratch
+- Ship to the App Store
+- Learn AI-assisted development
+- Join a supportive community
+- Launch your developer career
+
+**The Bigger Picture:**
+This course demonstrates that AI-assisted development makes coding accessible to everyone. What starts as a budget app can evolve into anything - a super app, a business platform, or your own unique vision.
+
+See [VISION.md](./VISION.md) for the long-term super app roadmap.
 
 ## 📜 License
 

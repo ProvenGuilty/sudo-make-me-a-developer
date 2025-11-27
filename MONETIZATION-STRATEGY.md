@@ -1,6 +1,49 @@
 # PayFlow Monetization Strategy
 
-> **Goal:** Launch PayFlow as a $0.99 paid app on the Apple App Store
+> **Course Strategy:** Free and open-source forever  
+> **Learner Apps:** Optional $0.99 pricing (learners choose)  
+> **Long-term Vision:** Your personal super app business
+
+---
+
+## 🎯 The Two-Track Approach
+
+### Track 1: Free Open-Source Course
+**This course and all code will always be free.**
+
+- ✅ No paywalls
+- ✅ No premium tiers
+- ✅ Open-source code
+- ✅ Free community support
+- ✅ Complete curriculum (Chapter 1-6)
+
+**Why free?**
+- Build community and credibility
+- Prove AI-assisted learning works
+- Create network effects
+- Help people learn to code
+- Foundation for your business
+
+### Track 2: Your Super App (Future)
+**Your personal business built on same foundation.**
+
+- Your own version of PayFlow Pro
+- Premium features beyond course
+- WeChat-style super app vision
+- Multiple revenue streams
+- Long-term business platform
+
+**Separate from course:**
+- Different branding
+- Proprietary features
+- Your business model
+- Built on proven foundation
+
+---
+
+## 💰 Learner Monetization (Optional)
+
+> **Note:** Learners who complete the course can choose to launch their PayFlow app as free or paid. This section is guidance for those who want to monetize.
 
 ---
 
