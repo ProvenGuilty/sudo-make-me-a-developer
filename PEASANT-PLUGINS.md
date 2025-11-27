@@ -438,6 +438,84 @@ Financial transformation is hard. It's easier with a community of people who get
 
 ---
 
+#### Plugin 13: Fast Food Killer
+**"Stop Bleeding Money on Fast Food"**
+
+**What it does:**
+- **Receipt scanning** - Take photo of fast food receipt with camera
+- **AI learning** - Learns what you like to eat (Big Mac, Chipotle bowl, etc.)
+- **Recipe matching** - Finds recipes to make it at home
+- **Cost comparison** - Shows savings (Big Mac meal: $12 out vs $3 at home)
+- **Grocery list generator** - Auto-creates shopping list for recipes
+- **Meal planning** - Plan week of meals based on your favorites
+- **Savings tracker** - Track how much you've saved
+- **Nutrition comparison** - Homemade is usually healthier too
+- **Batch cooking guide** - Make 5 meals at once, freeze them
+- **Time calculator** - "20 minutes to make vs 20 minutes in drive-thru"
+
+**Tricks the wealthy know:**
+- Fast food is the poverty trap ($12/meal × 2 meals/day × 30 days = $720/month!)
+- Cooking at home saves 70-80% on food costs
+- Meal prep on Sunday = fast food convenience all week
+- Batch cooking is the secret (make 10 burritos, freeze them)
+- Generic ingredients = same taste, 1/3 the price
+- Slow cooker = dump ingredients, come home to dinner
+- Leftovers for lunch = another $300/month saved
+
+**The Math:**
+- **Fast food habit:** $720/month ($8,640/year)
+- **Cooking at home:** $200/month ($2,400/year)
+- **Savings:** $520/month ($6,240/year)
+- **Over 10 years:** $62,400 saved (+ investment growth!)
+
+**AI Features:**
+- Scan receipt, identify items
+- Learn your preferences (spicy, vegetarian, etc.)
+- Match to similar recipes
+- Adjust recipes for dietary restrictions
+- Suggest ingredient substitutions
+- Calculate exact savings
+- Predict grocery costs
+- Generate shopping list by store aisle
+- Suggest meal prep schedule
+
+**Example Flow:**
+1. Scan Chipotle receipt: Chicken burrito bowl, $12
+2. AI finds recipe: "Chipotle-style chicken bowl"
+3. Shows ingredients: $15 for 5 bowls = $3 each
+4. Adds to grocery list
+5. Shows recipe + meal prep guide
+6. Tracks savings: $45 saved this week!
+
+**Gamification:**
+- Streak counter (days without fast food)
+- Savings milestones ($100, $500, $1000 saved)
+- Recipe mastery (make it 5 times = unlock badge)
+- Community challenges
+- Share your creations
+- Rate recipes
+
+**Why it matters:**
+Fast food is one of the biggest money drains for working-class people. $12/meal doesn't feel like much, but it's $8,640/year. That's a used car. That's an emergency fund. That's escaping poverty.
+
+**The Irony:**
+- Fast food = "convenient" but you wait 20 minutes
+- Meal prep = 2 hours on Sunday, grab-and-go all week
+- Fast food = expensive, unhealthy
+- Home cooking = cheap, healthier, tastes better
+
+**Social Features:**
+- Share your recreations
+- "I made Chipotle at home for $3!"
+- Recipe ratings and reviews
+- Tips and tricks from community
+- Weekly challenges
+- Savings leaderboard
+
+**Price:** $0.99
+
+---
+
 ## 💰 Revenue Model
 
 ### Pricing Strategy

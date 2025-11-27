@@ -54,6 +54,7 @@
 10. **Peasant Banking** - Your bank, but better (free, make money on deposits)
 11. **Peasant University** - Financial education courses
 12. **Peasant Community** - Connect with other peasants (free)
+13. **Fast Food Killer** - Scan receipts, get recipes, save $6K+/year
 
 **Why:**
 - ✅ **Vertical integration** - Own the full stack
